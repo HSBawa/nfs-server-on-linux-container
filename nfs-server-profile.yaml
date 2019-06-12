@@ -10,7 +10,7 @@ config:
     lxc.cap.drop =
   security.nesting: "true"
   security.privileged: "true"
-description: LXC profile for glusterfs nodes
+description: LXC profile for nfs nodes
 devices:
   aadisable:
     path: /sys/module/nf_conntrack/parameters/hashsize
